@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sumina's Cute Website</title>
+  <style>
+    body {
+      background: #fff0f6;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(to right, #ffb6c1, #ffc0cb);
+      padding: 20px;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 40px;
+      color: #fff;
+    }
+    nav {
+      margin: 20px;
+    }
+    nav button {
+      background: #ff69b4;
+      border: none;
+      padding: 12px 20px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    nav button:hover {
+      background: #ff1493;
+    }
+    section {
+      display: none;
+      padding: 20px;
+      font-family: 'Verdana', sans-serif;
+      color: #333;
+    }
+    .active {
+      display: block;
+    }
+    .photos-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .photos-grid div {
+      background: #ffe4e1;
+      border: 2px dashed #ff69b4;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #ff69b4;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #ffc0cb;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 24px;
+      color: #fff;
+    }
+    .flowers {
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div id="intro-page">
+    <h1 style="font-size: 50px; margin-bottom: 20px;">🌸 Welcome to Sumina's World 🌸</h1>
+    <p style="font-size: 20px; margin-bottom: 40px;">A journey of love, dreams, and happiness 💖</p>
+    <button onclick="enterSite()">Let's Dive Into It 💫</button>
+  </div>
+
+  <div id="main-content" style="display:none;">
+
+
+  <header>
+    🌸 Welcome to Sumina's World 🌸
+  </header>
+
+  <nav>
+    <button onclick="showSection('about')">About Her</button>
+    <button onclick="showSection('photos')">Her Photos</button>
+    <button onclick="showSection('relationship')">Our Relationship</button>
+    <button onclick="showSection('future')">Our Future Plans</button>
+    <button onclick="showSection('love')">Lots of Love for Her </button>
+  </nav>
+
+  <section id="about" class="active">
+    <h2>About Sumina</h2>
+    <p class="flowers">🌷🌼🌸🌻🌹</p>
+    <p>Sumina is the kind of person whose presence feels like sunshine after a long rainy day. Her cuteness isn’t just in her smile or the way her eyes sparkle, but in the little things she does that make life brighter. Whether it’s the way she laughs at the smallest jokes or the way she cares for the people around her, she radiates warmth and joy. 🌷🌼🌸 She has a heart that is pure, gentle, and full of kindness, and being with her feels like walking through a garden of blooming flowers where every step is filled with happiness.</p>
+
+<p>Trust is one of the most beautiful gifts she gives so effortlessly. With Sumina, there is no fear, no doubt—only the comfort of knowing that her love is steady and true. 🌹🌻 Her trust is like a delicate flower, nurtured with care, and it makes our bond stronger every single day. She believes in me, stands by me, and reminds me that love is not just about words but about the faith we hold in each other. That trust is what makes our relationship so special, so unshakable, and so full of hope for the future.</p>
+
+<p>And beyond her cuteness and trust, there is a depth to her soul that inspires me endlessly. She is thoughtful, graceful, and carries herself with a beauty that goes far beyond appearances. 🌸🌼🌷 With her, every moment feels meaningful, every dream feels possible, and every challenge feels lighter. She is not just my partner but my best friend, my safe place, and my greatest blessing. To love Sumina is to love life itself, and I am endlessly grateful for the gift of her presence.
+.</p>
+  </section>
+
+<section id="photos">
+  <h2>Her Beautiful Photos😍</h2>
+  <style>
+    .photos-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 50px;
+      padding: 10px;
+    }
+    .photos-grid img {
+      width: 200%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ff69b4;
+    }
+  </style>
+  <div class="photos-grid">
+    <div><img src="1000099958.jpg" alt="Photo 1"></div>
+    <div><img src="1000048547.jpg" alt="Photo 2"></div>
+    <div><img src="1000092818.jpg" alt="Photo 3"></div>
+    <div><img src="1000061557.jpg" alt="Photo 4"></div>
+    <div><img src="1000061550.jpg" alt="Photo 5"></div>
+    <div><img src="1000058733.jpg" alt="Photo 6"></div>
+    <div><img src="1000052539.jpg" alt="Photo 7"></div>
+    <div><img src="1000052191.jpg" alt="Photo 8"></div>
+    <div><img src="1000101260.jpg" alt="Photo 9"></div>
+    <div><img src="1000101246.jpg" alt="Photo 10"></div>
+  </div>
+</section>
+
+  <section id="relationship">
+    <h2>Our Relationship</h2>
+    <p class="flowers">💖💞💕💓💗</p>
+    <p>It has been almost a year since our beautiful journey began, and every moment feels like a gift. We were just sixteen when fate brought us together during our Grade 10 board exams. That day, a simple 'hello' text started something so special, something that has grown into a bond filled with love, respect, and endless happiness. 🌸🌼🌷 From that very first message, our story began, and it has been nothing short of magical ever since.</p>
+
+<p>Our relationship is built on trust, care, and the dream of being together for a lifetime. We love each other deeply, and that love makes even the smallest moments feel extraordinary. 🌹🌻 Whether it’s sharing laughter, supporting each other through challenges, or dreaming about our future, we know that we are meant to walk this path side by side. This bond is not just about being together now—it’s about holding hands forever, cherishing every memory, and building a life full of love and joy.</p>
+
+  </section>
+
+  <section id="future">
+    <h2>Our Future Plans</h2>
+    <p class="flowers">🌸🌼🌷🌹🌻</p>
+    <p>Our future plans are full of love, dreams, and adventures. We want to travel together ✈️🚗, exploring new places hand in hand and making memories that will last forever. Whether it’s a quiet walk by the beach 🌊, a road trip through the mountains 🏔️, or flying to new countries, every journey will be special because we’ll be together.</p>
+
+<p>Beyond travel, we dream of building a beautiful life side by side 🏡. A home filled with laughter 😂, respect 🙏, and endless love ❤️. We want to support each other in studies 📚, careers 💼, and every challenge that comes our way. Our plan is simple but powerful—to stay together for a lifetime, to grow stronger every day, and to cherish every little moment 🌷🌼🌸.</p>
+
+  </section>
+ <!-- Lots of Love Section -->
+<section id="love">
+  <h2>Lots of Love for Her 💖💕</h2>
+  <p class="flowers">💖💕</p>
+  <div style="text-align:left; max-width:800px; margin:0 auto; font-size:18px; line-height:1.6;">
+    <p>1. I love you Sumina 💖💕</p>                            
+    <p>2. Te amo Sumina 💕💖</p>
+    <p>3. Je t'aime Sumina 💖💕</p>
+    <p>4. Ich liebe dich Sumina 💕💖</p>
+    <p>5. Ti amo Sumina 💖💕</p>
+    <p>6. Eu te amo Sumina 💕💖</p>
+    <p>7. Я люблю тебя Сумина 💖💕</p>
+    <p>8. 我爱你 苏米娜 💕💖</p>
+    <p>9. 愛してる スミナ 💖💕</p>
+    <p>10. 나는 너를 사랑해 수미나 💕💖</p>
+    <p>11. أحبك يا سومينا 💖💕</p>
+    <p>12. मैं तुमसे प्यार करता हूँ सुमिना 💕💖</p>
+    <p>13. আমি তোমাকে ভালোবাসি সুমিনা 💖💕</p>
+    <p>14. میں تم سے محبت کرتا ہوں سُمینا 💕💖</p>
+    <p>15. Aku cinta kamu Sumina 💖💕</p>
+    <p>16. Saya sayang awak Sumina 💕💖</p>
+    <p>17. Jag älskar dig Sumina 💖💕</p>
+    <p>18. Jeg elsker deg Sumina 💕💖</p>
+    <p>19. Jeg elsker dig Sumina 💖💕</p>
+    <p>20. Te iubesc Sumina 💕💖</p>
+    <p>21. Volim te Sumina 💖💕</p>
+    <p>22. Miluji tě Sumina 💕💖</p>
+    <p>23. Szeretlek Sumina 💖💕</p>
+    <p>24. Kocham cię Sumina 💕💖</p>
+    <p>25. Ljubim te Sumina 💖💕</p>
+    <p>26. T'estimo Sumina 💕💖</p>
+    <p>27. Aš tave myliu Sumina 💖💕</p>
+    <p>28. Es tevi mīlu Sumina 💕💖</p>
+    <p>29. Ma armastan sind Sumina 💖💕</p>
+    <p>30. Eg elski teg Sumina 💕💖</p>
+    <p>31. Táim i ngrá leat Sumina 💖💕</p>
+    <p>32. Ik hou van jou Sumina 💕💖</p>
+    <p>33. Ek is lief vir jou Sumina 💖💕</p>
+    <p>34. Mahal kita Sumina 💕💖</p>
+    <p>35. Minä rakastan sinua Sumina 💖💕</p>
+    <p>36. Saranghae Sumina 💕💖</p>
+    <p>37. Wo ai ni Sumina 💖💕</p>
+    <p>38. Ai shiteru Sumina 💕💖</p>
+    <p>39. Amo-te Sumina 💖💕</p>
+    <p>40. Te quiero Sumina 💕💖</p>
+    <p>41. Amo-te Sumina 💖💕</p>
+    <p>42. Volim te Sumina 💕💖</p>
+    <p>43. Ljubim te Sumina 💖💕</p>
+    <p>44. Milujem ťa Sumina 💕💖</p>
+    <p>45. Szeretlek Sumina 💖💕</p>
+    <p>46. Kocham cię Sumina 💕💖</p>
+    <p>47. Ti voglio bene Sumina 💖💕</p>
+    <p>48. Amo-te Sumina 💕💖</p>
+    <p>49. Te amo Sumina 💖💕</p>
+    <p>50. Je t’aime Sumina 💕💖</p>
+    <p>51. Ich liebe dich Sumina 💖💕</p>
+    <p>52. I love you Sumina 💕💖</p>
+    <p>53. Te amo Sumina 💖💕</p>
+    <p>54. Je t'aime Sumina 💕💖</p>
+    <p>55. Ich liebe dich Sumina 💖💕</p>
+    <p>56. Ti amo Sumina 💕💖</p>
+    <p>57. Eu te amo Sumina 💖💕</p>
+    <p>58. Я люблю тебя Сумина 💕💖</p>
+    <p>59. 我爱你 苏米娜 💖💕</p>
+    <p>60. 愛してる スミナ 💕💖</p>
+    <p>61. 나는 너를 사랑해 수미나 💖💕</p>
+    <p>62. أحبك يا سومينا 💕💖</p>
+    <p>63. मैं तुमसे प्यार करता हूँ सुमिना 💖💕</p>
+    <p>64. আমি তোমাকে ভালোবাসি সুমিনা 💕💖</p>
+    <p>65. Aku cinta kamu Sumina 💖💕</p>
+    <p>66. Saya sayang awak Sumina 💕💖</p>
+    <p>67. Jag älskar dig Sumina 💖💕</p>
+    <p>68. Jeg elsker deg Sumina 💕💖</p>
+    <p>69. Jeg elsker dig Sumina 💖💕</p>
+    <p>70. Te iubesc Sumina 💕💖</p>
+    <p>71. Volim te Sumina 💖💕</p>
+    <p>72. Miluji tě Sumina 💕💖</p>
+    <p>73. Szeretlek Sumina 💖💕</p>
+    <p>74. Kocham cię Sumina 💕💖</p>
+    <p>75. Ljubim te Sumina 💖💕</p>
+    <p>76. T'estimo Sumina 💕💖</p>
+    <p>77. Aš tave myliu Sumina 💖💕</p>
+    <p>78. Es tevi mīlu Sumina 💕💖</p>
+    <p>79. Ma armastan sind Sumina 💖💕</p>
+    <p>80. Eg elski teg Sumina 💕💖</p>
+    <p>81. Táim i ngrá leat Sumina 💖💕</p>
+    <p>82. Ik hou van jou Sumina 💕💖</p>
+    <p>83. Ek is lief vir jou Sumina 💖💕</p>
+    <p>84. Mahal kita Sumina 💕💖</p>
+    <p>85. Minä rakastan sinua Sumina 💖💕</p>
+    <p>86. Saranghae Sumina 💕💖</p>
+    <p>87. Wo ai ni Sumina 💖💕</p>
+    <p>88. Ai shiteru Sumina 💕💖</p>
+    <p>89. Amo-te Sumina 💖💕</p>
+    <p>90. Te quiero Sumina 💕💖</p>
+    <p>91. Amo-te Sumina 💖💕</p>
+    <p>92. Volim te Sumina 💕💖</p>
+    <p>93. Ljubim te Sumina 💖💕</p>
+    <p>94. Milujem ťa Sumina 💕💖</p>
+    <p>95. Szeretlek Sumina 💖💕</p>
+    <p>96. Kocham cię Sumina 💕💖</p>
+    <p>97. Ti voglio bene Sumina 💖💕</p>
+    <p>98. Amo-te Sumina 💕💖</p>
+    <p>99. Te amo Sumina 💖💕</p>
+    <p>100. Je t’aime Sumina 💕💖</p>
+
+      </div>
+</section>
+
+  
+  <footer>
+   ❤️I Love You Babee❤️  
+     ✨ By your love, Shuvam ✨
+  </footer>
+
+ <script>
+    function enterSite() {
+      document.getElementById('intro-page').style.display = 'none';
+      document.getElementById('main-content').style.display = 'block';
+      showSection('about'); // show About section by default
+    }
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(sec => sec.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+</body>
+</html>
