@@ -37,7 +37,8 @@
       font-size: 16px;
       cursor: pointer;
       transition: background-color 0.3s;
-      flex: 1 1 150px; /* responsive sizing */
+      flex: 1 1 auto;
+      min-width: 120px;
     }
 
     .buttons button:hover {
@@ -55,7 +56,7 @@
     .photo-grid img {
       width: 100%;
       height: auto;
-      border: 2px solid #ff69b4; /* pink border */
+      border: 2px solid #ff69b4;
       border-radius: 10px;
       object-fit: cover;
     }
@@ -74,10 +75,21 @@
       h1 {
         font-size: 22px;
       }
+
+      .buttons {
+        flex-direction: column; /* stack buttons vertically */
+      }
+
       .buttons button {
+        width: 100%; /* full width buttons */
         font-size: 14px;
         padding: 10px;
       }
+
+      .photo-grid {
+        grid-template-columns: 1fr; /* one photo per row */
+      }
+
       .love-message {
         font-size: 16px;
       }
