@@ -118,13 +118,13 @@
   <style>
     .photos-grid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 50px;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
       padding: 10px;
     }
     .photos-grid img {
-      width: 200%;
-      height: 160px;
+      width: 100%;
+      height: auto;
       object-fit: cover;
       border-radius: 10px;
       border: 2px solid #ff69b4;
@@ -289,5 +289,6 @@
   </script>
 </body>
 </html>
+
 
 
